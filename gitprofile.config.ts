@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/my-profile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -30,7 +30,6 @@ const CONFIG = {
     },
     external: {
       header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'Project Name',
@@ -57,166 +56,82 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ifirestone',
-    twitter: 'ijfirestone',
-    mastodon: 'ifirestone@mastodon.social',
+    linkedin: 'minh-duc-tran-898987220/',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
-    facebook: 'ifirestone',
-    instagram: 'ifirestone',
-    reddit: 'ifirestone2079',
-    threads: 'ifirestone',
-    youtube: 'IvanFirestone', // example: 'pewdiepie'
+    facebook: 'https://www.facebook.com/minhduc003/',
+    instagram: '',
+    reddit: '',
+    threads: '',
+    youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
     medium: '',
-    dev: 'ifirestone',
-    stackoverflow: '7255068/ifirestone', // example: '1/jeff-atwood'
+    dev: '',
+    stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: 'ifirestone',
-    website: 'https://madlab.com.do',
-    phone: '',
-    email: 'ivan.firestone@madlab.com.do',
+    telegram: '',
+    website: '',
+    phone: '0869631814',
+    email: 'tranminhducpchy@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://res.cloudinary.com/madlab/image/upload/v1737819683/IFIRESTONE/CA_-_English_-_Ivan_Firestone_s7qhyu.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
-    'PostgreSQL',
     'MongoDB',
     'REST API',
-    'MSSQL',
-    'Microservices',
-    'Docker',
-    'Kubernetes',
-    'Cloud Computing',
     'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
     'Next.js',
     'Tailwind',
   ],
   experiences: [
     {
-      company:
-        'Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)',
-      position: 'Director Arquitectura Digital Gubernamental',
-      from: 'May 2024',
-      to: 'Present',
-      companyLink: 'https://ogtic.gob.do',
-    },
-    {
-      company: 'Universidad Eugenio Maria de Hostos (UNIREMHOS)',
-      position: 'Computer Science Professor',
-      from: 'Jan 2022',
-      to: 'Present',
-      companyLink: 'https://uniremhos.edu.do',
-    },
-    {
-      company:
-        'Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)',
-      position: 'Encargado de Plataformas y Servicios',
-      from: 'Oct 2022',
-      to: 'May 2024',
-      companyLink: 'https://ogtic.gob.do',
-    },
-    {
-      company:
-        'Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)',
-      position: 'Encargado División de Desarrollo',
-      from: 'Feb 2022',
-      to: 'Oct 2022',
-      companyLink: 'https://ogtic.gob.do',
-    },
-    {
-      company:
-        'Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)',
-      position: 'Software Developer',
-      from: 'April 2021',
-      to: 'Feb 2022',
-      companyLink: 'https://ogtic.gob.do',
-    },
-    {
-      company: 'PRONET, SRL',
-      position: 'Gerente de Tecnología',
-      from: 'Nov 2009',
-      to: 'April 2021',
-      companyLink: '',
-    },
-    {
-      company: 'BEC Telecom',
-      position: 'Wireless Network Engineer',
-      from: 'Sep 2005',
-      to: 'April 2021',
-      companyLink: '',
-    },
-    {
-      company: 'JIC Technology',
-      position: 'IT Manager',
-      from: 'Jan 2003',
-      to: 'Sep 2005',
-      companyLink: '',
+      company: 'H2Q solutions',
+      position: 'Front-end developer',
+      from: 'September 2024',
+      to: 'November 2024',
+      companyLink: 'https://h2qsolution.com/',
     },
   ],
   certifications: [
     {
-      name: 'Master in Applied Artificial Intelligence',
-      body: 'Ministry of Commerce of China',
+      name: 'Web Design for Everybody: Basics of Web Development & Coding',
+      body: '',
       year: '2023',
-      link: '',
+      link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/G2PN8V76V6ZX',
     },
     {
-      name: 'Big Data and Artificial Intelligence Conference',
-      body: 'Instituto de Comunicación Política',
-      year: '2021',
-      link: 'https://www.facebook.com/watch/?v=448689546997668',
+      name: 'Software Development Lifecycle',
+      body: '',
+      year: '2024',
+      link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/6968DYGLAX5Q',
     },
     {
-      name: 'New Communications Technology and System Maintenance',
-      body: 'Ministry of Commerce People’s Republic of China',
-      year: '2019',
-      link: '',
+      name: 'User Experience Research and Design',
+      body: '',
+      year: '2024',
+      link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/JD4J93GUFZ8V',
     },
     {
-      name: 'Electronic World Trade Alliance Expert Advisor',
-      body: 'Winliner Information Technology Co. LT',
-      year: '2019',
-      link: '',
-    },
-    {
-      name: 'Bullet Proof Manager Program',
-      body: 'CRESTCOM',
-      year: '2014',
-      link: 'https://crestcom.com/',
+      name: ' UI / UX Design',
+      year: '2023',
+      link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/9EJ7U4W7MLNB',
     },
   ],
   educations: [
     {
-      institution: 'Tecnológico de Monterrey',
-      degree: 'Master in Applied Artificial Intelligence',
-      from: '2025',
+      institution: 'FPT UNIVERSITY',
+      degree: 'SOFTWARE ENGINEERING',
+      from: '2021',
       to: 'On Going',
-    },
-    {
-      institution: 'Universidad Eugenio Maria de Hostos (UNIREMHOS)',
-      degree: 'Bachelor’s Degree in Computer Science',
-      from: '2017',
-      to: '2021',
-    },
-    {
-      institution: 'BARNA Management School',
-      degree: 'Strategic Direction',
-      from: '2018',
-      to: '2018',
     },
   ],
   publications: [
@@ -240,11 +155,6 @@ const CONFIG = {
     },
   ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'ifirestone', // to hide blog section, keep it empty
-    limit: 10, // How many articles to display. Max is 10.
-  },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
