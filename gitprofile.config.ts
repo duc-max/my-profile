@@ -32,26 +32,18 @@ const CONFIG = {
       header: 'My Projects',
       projects: [
         {
-          title: 'Project Name',
+          title: 'Smart home',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'The website is dedicated to Bkav SmartHome, a premium smart home solution for luxury villas and mansions in Vietnam',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://res.cloudinary.com/dkfoitaat/image/upload/v1740764687/Screenshot_2025-03-01_004409_kjlpsq.png',
+          link: 'https://smarthome.com.vn/',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ivan Firestone',
+    title: 'Portfolio of Minh Duc',
     description: '',
     imageURL: '',
   },
@@ -60,7 +52,7 @@ const CONFIG = {
     twitter: '',
     mastodon: '',
     researchGate: '',
-    facebook: 'https://www.facebook.com/minhduc003/',
+    facebook: 'minhduc003/',
     instagram: '',
     reddit: '',
     threads: '',
@@ -228,7 +220,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/duc-max/my-profile.git"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a>`,
