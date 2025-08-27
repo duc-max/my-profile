@@ -39,6 +39,14 @@ const CONFIG = {
             'https://res.cloudinary.com/dkfoitaat/image/upload/v1740764687/Screenshot_2025-03-01_004409_kjlpsq.png',
           link: 'https://smarthome.com.vn/',
         },
+        {
+          title: 'Slearn ',
+          description:
+            'English learning and testing website with detailed lessons and full skills tests',
+          imageUrl:
+            'https://res.cloudinary.com/dkfoitaat/image/upload/v1756292834/Screenshot_2025-08-27_180637_weqae5.png',
+          link: 'https://slearn.vn/',
+        },
       ],
     },
   },
@@ -74,12 +82,14 @@ const CONFIG = {
   },
   skills: [
     'JavaScript',
+    'TypeScript',
     'React.js',
     'Node.js',
     'MySQL',
     'MongoDB',
     'REST API',
     'Git',
+    'HTML',
     'CSS',
     'Next.js',
     'Tailwind',
@@ -91,6 +101,13 @@ const CONFIG = {
       from: 'September 2024',
       to: 'November 2024',
       companyLink: 'https://h2qsolution.com/',
+    },
+    {
+      company: 'Công ty cp giáo dục Slearn',
+      position: 'Front-end developer',
+      from: 'February 2025',
+      to: 'August 2025',
+      companyLink: '',
     },
   ],
   certifications: [
@@ -123,7 +140,7 @@ const CONFIG = {
       institution: 'FPT UNIVERSITY',
       degree: 'SOFTWARE ENGINEERING',
       from: '2021',
-      to: 'On Going',
+      to: '2025',
     },
   ],
   publications: [
