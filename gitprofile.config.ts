@@ -98,8 +98,8 @@ const CONFIG = {
     {
       company: 'H2Q solutions',
       position: 'Front-end developer',
-      from: 'September 2024',
-      to: 'November 2024',
+      from: 'May 2024',
+      to: 'December 2024',
       companyLink: 'https://h2qsolution.com/',
     },
     {
