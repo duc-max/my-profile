@@ -96,11 +96,11 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'H2Q solutions',
+      company: 'Bkav',
       position: 'Front-end developer',
       from: 'May 2024',
       to: 'December 2024',
-      companyLink: 'https://h2qsolution.com/',
+      companyLink: '',
     },
     {
       company: 'Công ty cp giáo dục Slearn',
