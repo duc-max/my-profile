@@ -32,6 +32,30 @@ const CONFIG = {
       header: 'My Projects',
       projects: [
         {
+          title: 'Mega Market',
+          description:
+            'MM Vietnam Online is the e-commerce platform (B2C/B2B) of MM Mega Market Vietnam, allowing individual and business customers to shop online for consumer goods, fresh food, household items, and business products. The platform is part of MM Mega Markets omni-channel strategy, connecting the shopping experience between the website, supermarket system, telesales, and Zalo OA.',
+          imageUrl:
+            'https://res.cloudinary.com/ddkhedpy3/image/upload/v1785075253/Screenshot_2026-07-26_211341_t4djbn.png',
+          link: 'https://online.mmvietnam.com/',
+        },
+        {
+          title: 'Abbott Store',
+          description:
+            'Abbott Vietnam is the official website of Abbott Nutrition in Vietnam, providing information about nutritional products, health knowledge, promotional programs, and guidance on verifying genuine products. The website is built using a CMS model, optimized for SEO, supports multiple devices, and serves as an information portal to help users learn about products before purchasing.',
+          imageUrl:
+            'https://res.cloudinary.com/ddkhedpy3/image/upload/v1785075468/Screenshot_2026-07-26_211731_k2vqvz.png',
+          link: 'https://abbottvietnam.com.vn/',
+        },
+        {
+          title: 'Oroca',
+          description:
+            'Oroca is a B2B e-commerce platform specializing in providing genuine dental equipment, materials, and instruments in Vietnam. The website supports dentists and clinics in searching, purchasing, managing orders, and accessing professional knowledge through a product catalog system, online payment, and content management system (CMS).',
+          imageUrl:
+            'https://res.cloudinary.com/ddkhedpy3/image/upload/v1785075567/Screenshot_2026-07-26_211908_xn8xa7.png',
+          link: 'https://oroca.vn/',
+        },
+        {
           title: 'Smart home',
           description:
             'The website is dedicated to Bkav SmartHome, a premium smart home solution for luxury villas and mansions in Vietnam',
@@ -83,6 +107,7 @@ const CONFIG = {
   skills: [
     'JavaScript',
     'TypeScript',
+    'Megento',
     'React.js',
     'Node.js',
     'MySQL',
@@ -108,6 +133,20 @@ const CONFIG = {
       from: 'February 2025',
       to: 'August 2025',
       companyLink: '',
+    },
+    {
+      company: 'Công ty cổ phần HTN Software',
+      position: 'Full-Stack developer',
+      from: 'September 2025',
+      to: 'January 2026',
+      companyLink: '',
+    },
+    {
+      company: 'Magenest',
+      position: 'Front-end developer',
+      from: 'February 2026',
+      to: 'NOW',
+      companyLink: 'https://magenest.com/',
     },
   ],
   certifications: [
